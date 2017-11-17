@@ -1,0 +1,16 @@
+Simulations
+
+readFile.py  ->  createMaps_fireBoundary -> createSimWinds (convert to shapefiles and resample)  -> createMaps  - > cofps_Fire_webService -> updateMinMaxInstances
+
+
+HRRR  - > HRRR_Winds - >HRRR_Windimages - >HRRR_images  ->cofps_webService
+
+HRRR_avStart - >  HRRR_aviation - > cofps_webService
+
+postgreSQL -
+overwrite raster in raster mosaic
+restart map service
+
+load rasters into raster mosaic
+make map
+publish map - data source ?
